@@ -1,10 +1,10 @@
 import newspaper from '../assets/newspaper.png';
 import '../styles/hero.css'
-import getHeroHeight from '../methods/getHeroHeight';
 
 function MainHero(){
     return (
-        <div id="hero" style={{height: getHeroHeight()}}>
+        <div id="hero">
+            <h1>STREET TEAM</h1>
             <img src={newspaper} alt="Newspaper Graphic"></img>
         </div>
     )

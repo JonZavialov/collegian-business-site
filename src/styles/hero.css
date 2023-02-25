@@ -1,7 +1,20 @@
 #hero img {
   width: 500px;
+  right: 0;
+  position: absolute;
 }
 
 #hero {
   background-color: #a8abb0;
+  flex: auto;
+  display: flex;
+  align-items: center;
+}
+
+#hero h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  width: min-content;
+  margin-left: 10%;
+  font-size: 65px;
 }

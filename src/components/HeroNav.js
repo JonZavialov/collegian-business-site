@@ -1,15 +1,17 @@
 import logo from '../assets/collegian-logo.png';
 import '../styles/nav.css'
+import SocialsBar from './SocialsBar';
 
 function HeroNav(){
     return (
-        <div id="rootNav">
-            <img src={logo} alt="Collegian Logo"></img>
-            <div id="navLinks">
+        <div id="root-nav">
+            <img src={logo} alt="Collegian Logo" id="logo"></img>
+            <div id="nav-links">
                 <a href="/">Home</a>
                 <a href="/">Section 1</a>
                 <a href="/">Section 2</a>
                 <a href="/">Section 3</a>
+                <SocialsBar />
             </div>
         </div>
     )
