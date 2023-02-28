@@ -1,0 +1,13 @@
+#socials-bar {
+  height: 100%;
+  float: right;
+}
+
+#socials-bar img {
+  height: -webkit-fill-available;
+  margin: 8px;
+}
+
+#socials-bar img:hover {
+  filter: brightness(0.5);
+}

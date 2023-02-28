@@ -1,14 +1,18 @@
 import React from 'react';
-import HeroNav from './components/HeroNav.js'
-import MainHero from './components/MainHero.js';
-import './styles/homepage.css';
+import HeroNav from './components/home-page/HeroNav.js'
+import MainHero from './components/home-page/MainHero.js';
+import DashboardsSelector from './components/dashboards/DashboardsSelector.js';
+import './styles/homepage/homepage.css';
 
 function App() {
   return (
-    <div id="home-page">
-      <HeroNav />
-      <MainHero />
-    </div> 
+    <>
+      <div id="home-page">
+        <HeroNav />
+        <MainHero />
+      </div>
+      <DashboardsSelector />
+    </>
   );
 }
 
