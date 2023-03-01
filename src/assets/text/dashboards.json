@@ -10,5 +10,21 @@
   "Supply Chain": {
     "path": "supplychain.pbix",
     "description": "This report shows the supply chain of products."
+  },
+  "Board 4": {
+    "path": "supplychain.pbix",
+    "description": "This report shows the supply chain of products."
+  },
+  "Board 5": {
+    "path": "supplychain.pbix",
+    "description": "This report shows the supply chain of products."
+  },
+  "Board 6": {
+    "path": "supplychain.pbix",
+    "description": "This report shows the supply chain of products."
+  },
+  "Board 7": {
+    "path": "supplychain.pbix",
+    "description": "This report shows the supply chain of products."
   }
 }

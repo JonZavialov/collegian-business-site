@@ -3,6 +3,7 @@ import HeroNav from './components/home-page/HeroNav'
 import MainHero from './components/home-page/MainHero';
 import DashboardsSelector from './components/dashboards/DashboardsSelector';
 import './styles/homepage/homepage.css';
+import "./styles/dashboards/selector.css";
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import getDashboardImg from "../../utils/getDashboardImg";
 import dashboards from '../../assets/text/dashboards.json';
 import redirectToDashboard from "../../utils/redirectToDashboard";
+import "../../styles/dashboards/card.css";
 
 function DashboardCard(props){
     return (
