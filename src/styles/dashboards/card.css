@@ -1,4 +1,8 @@
 .dashboard-card {
+  max-width: 280px;
+}
+
+.card-container {
   width: min-content;
   flex: 1 0 calc(33% - 10px);
 }
