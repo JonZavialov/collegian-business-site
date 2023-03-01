@@ -1,7 +1,7 @@
 import React from 'react';
-import HeroNav from './components/home-page/HeroNav.js'
-import MainHero from './components/home-page/MainHero.js';
-import DashboardsSelector from './components/dashboards/DashboardsSelector.js';
+import HeroNav from './components/home-page/HeroNav'
+import MainHero from './components/home-page/MainHero';
+import DashboardsSelector from './components/dashboards/DashboardsSelector';
 import './styles/homepage/homepage.css';
 
 function App() {
@@ -11,7 +11,9 @@ function App() {
         <HeroNav />
         <MainHero />
       </div>
-      <DashboardsSelector />
+      <div id="dashboards-selector">
+        <DashboardsSelector />
+      </div>
     </>
   );
 }

@@ -1,6 +1,11 @@
+import dashboards from '../../assets/text/dashboards.json';
+import DashboardCard from './DashboardCard';
+
 function DashboardsSelector(){
     return (
-        <p>test</p>
+        Object.keys(dashboards).map((title) => (
+            <DashboardCard title={title} key={title} />
+        ))
     )
 }
 

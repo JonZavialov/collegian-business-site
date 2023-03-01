@@ -1,5 +1,14 @@
 {
-  "Customer Profitability": "profits.pbix",
-  "Sales and Returns": "sales.pbix",
-  "Supply Chain": "supplychain.pbix"
+  "Customer Profitability": {
+    "path": "profits.pbix",
+    "description": "This report shows the profitability of customers."
+  },
+  "Sales and Returns": {
+    "path": "sales.pbix",
+    "description": "This report shows the sales and returns of products."
+  },
+  "Supply Chain": {
+    "path": "supplychain.pbix",
+    "description": "This report shows the supply chain of products."
+  }
 }

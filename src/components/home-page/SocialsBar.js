@@ -1,7 +1,7 @@
 import insta from '../../assets/images/instagram.png'
 import '../../styles/homepage/socials-bar.css'
 import twitter from '../../assets/images/twitter.png'
-import redirect from '../../utils/redirect.js'
+import redirect from '../../utils/redirect'
 
 function SocialsBar(){
     return (
