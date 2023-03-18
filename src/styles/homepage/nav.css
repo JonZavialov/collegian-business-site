@@ -5,7 +5,8 @@
 }
 
 #root-nav #logo {
-  width: 500px;
+  width: -webkit-fill-available;
+  max-width: 500px;
   margin: 10px;
 }
 

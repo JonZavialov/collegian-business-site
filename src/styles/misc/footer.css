@@ -29,3 +29,9 @@
   right: 20px;
   position: absolute;
 }
+
+@media all and (min-width: 0px) and (max-width: 660px) {
+  #footer img {
+    display: none;
+  }
+}
