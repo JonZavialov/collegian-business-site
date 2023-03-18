@@ -1,6 +1,28 @@
 .dashboard-card {
   max-width: 280px;
-  margin: auto;
+  margin: 0 auto 20px;
+  box-shadow: 0px 0px 18px 0px rgba(30, 64, 124, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dashboard-card button {
+  margin: 0 auto;
+  padding: 10px 30px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  box-shadow: 0px 0px 8px 0px rgba(30, 64, 124, 0.3);
+  background-color: white;
+}
+
+.dashboard-card button:hover {
+  background-color: #bdbdbd;
+}
+
+.dashboard-card button:active {
+  background-color: #34373c;
 }
 
 .card-container {
