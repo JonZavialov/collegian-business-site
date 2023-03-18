@@ -6,6 +6,10 @@
   border-radius: 10px;
 }
 
+.dashboard-card img {
+  width: 280px;
+}
+
 .dashboard-card button {
   margin: 0 auto;
   padding: 10px 30px;

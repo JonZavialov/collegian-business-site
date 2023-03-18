@@ -1,5 +1,5 @@
 function getDashboardImg(){
-    return `https://picsum.photos/280/?random=${Math.floor(Math.random() * 1000)}`
+    return `https://flxtable.com/wp-content/plugins/pl-platform/engine/ui/images/image-preview.png`
 }
 
 export default getDashboardImg;
